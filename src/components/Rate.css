@@ -1,0 +1,57 @@
+.movable {
+    overflow: hidden;
+    width: 100%;
+    background-image: linear-gradient(45deg, #09009f, #00ff95 80%);
+}
+
+.currencies {
+    height: 1rem;
+    white-space: nowrap;
+    color:crimson;
+}
+
+
+.container>img{
+    content:url("../../public/images/banknote.jpeg");
+    height: 10rem;
+    width: 20%;
+    padding-left: 40rem;
+    position: relative;
+}
+
+.live{
+    position: absolute;
+    background-color: black;
+}
+
+.container {
+    position: relative;
+
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    color:darkgreen;
+    left: 39.7rem;
+    bottom: -9rem;
+    font-size:11.5em;
+  }
+
+  .Card{
+      margin-left: 23em;
+      text-align: center;
+      overflow: hidden;
+      height: 20rem;
+      width: 50%;
+      box-shadow: 3px 3px,3px 3px .4em olive;
+      background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%)
+      
+  }
+  
+  .flex-contaainer{
+      display: flex;
+    text-align: center;
+    padding-left: 5rem;
+     
+  }

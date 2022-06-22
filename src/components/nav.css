@@ -1,0 +1,26 @@
+.navBar {
+    background: linear-gradient(70deg, #fa7c30 50%, rgba(0, 0, 0, 0) 100%), url('../../public/images/download.png');
+    height:5rem;
+    width: 100%;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+h3 {
+    padding-top: 1%;
+    background-color: #CA4246;
+    background-image: linear-gradient(45deg, #09009f, #00ff95 80%);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navBar>img{
+    content:url("../../public/images/logo.png");
+    height: 5rem;
+    width: 5%;
+}
+
+
+
